@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
-  <desc>Mochila urbana, elegante, sobre fondo neutro, mayor foco en textura y costuras</desc>
-  <rect width="100%" height="100%" fill="#f3fff0"/>
-  <g transform="translate(100,100)">
-    <rect x="60" y="50" width="420" height="280" rx="18" fill="#fff" stroke="#dff8df"/>
-    <text x="120" y="170" font-size="42" fill="#333">Mochila</text>
-  </g>
-</svg>

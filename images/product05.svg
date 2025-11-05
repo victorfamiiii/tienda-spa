@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
-  <desc>Juego de té cerámico artesanal sobre madera clara, enfoque macro, estilo editorial</desc>
-  <rect width="100%" height="100%" fill="#fffaf6"/>
-  <g transform="translate(100,90)">
-    <rect x="70" y="50" width="420" height="260" rx="16" fill="#fff" stroke="#fff0e6"/>
-    <text x="140" y="170" font-size="40" fill="#333">Juego de té</text>
-  </g>
-</svg>

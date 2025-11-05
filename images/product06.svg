@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
-  <desc>Lámpara de mesa LED minimalista encendida, luz cálida, composición elegante</desc>
-  <rect width="100%" height="100%" fill="#fff8f0"/>
-  <g transform="translate(80,90)">
-    <rect x="100" y="50" width="380" height="260" rx="20" fill="#fff" stroke="#fff0e0"/>
-    <text x="150" y="170" font-size="44" fill="#333">Lámpara LED</text>
-  </g>
-</svg>

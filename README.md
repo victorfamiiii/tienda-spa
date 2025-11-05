@@ -40,6 +40,12 @@ Generar/usar imágenes IA:
 - Hay un script `generate_images.py` que crea SVGs de ejemplo a partir de esos prompts.
 - Para sustituir las imágenes por salidas reales de una IA (DALL·E, Stable Diffusion, Midjourney, etc.), genera las imágenes con la IA, descarga los ficheros y reemplaza los archivos en `images/` conservando el mismo nombre de fichero.
 
+Compatibilidad con PNG y SVG:
+
+- La SPA acepta imágenes en formatos PNG y SVG (u otros que el navegador soporte). Puedes usar imágenes .png generadas por una IA y colocarlas en `images/`.
+- El script `generate_images.py` intentará generar archivos PNG si encuentra la librería Pillow (PIL). Si no hay Pillow, el script generará SVGs como fallback.
+
+
 Notas sobre seguridad y producción:
 
 - Protege el token del túnel (no lo incluyas en repositorio público).
