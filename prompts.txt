@@ -1,0 +1,10 @@
+Prompts usados para generar las imágenes (puedes usarlos como base para la descripción accesible de cada imagen):
+
+1) "Auriculares inalámbricos modernos sobre fondo minimalista, iluminación suave, estilo fotográfico realista"
+2) "Cafetera compacta de diseño moderno en cocina minimalista, luz natural, estilo fotográfico"
+3) "Mochila urbana, elegante, sobre fondo neutro, mayor foco en textura y costuras"
+4) "Reloj inteligente con pantalla encendida mostrando datos de salud, estilo fotográfico con reflejos"
+5) "Juego de té cerámico artesanal sobre madera clara, enfoque macro, estilo editorial"
+6) "Lámpara de mesa LED minimalista encendida, luz cálida, composición elegante"
+
+Instrucciones rápidas: pega cada prompt en el generador de imágenes IA que prefieras (DALL·E, Stable Diffusion, Midjourney, etc.). Descarga las imágenes y sustituye los archivos en `images/` conservando el mismo nombre de fichero.

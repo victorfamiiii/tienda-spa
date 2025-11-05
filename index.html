@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tienda SPA - Ejemplo IA</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Tienda virtual de ejemplo — SPA con imágenes y prompts IA" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">MiTienda</div>
+    <nav class="nav">
+      <button data-route="home" aria-label="Inicio" title="Inicio" class="icon-btn">🏠</button>
+      <button data-route="map" aria-label="Mapa" title="Mapa" class="icon-btn">🗺️</button>
+      <button data-route="shipping" aria-label="Envío y pago" title="Pago y envío" class="icon-btn">💳🚚</button>
+      <button data-route="contact" aria-label="Contacto" title="Contacto" class="icon-btn">📞</button>
+      <button data-route="cart" aria-label="Ver carrito" title="Carrito" class="icon-btn">🛒<span id="cart-count" class="badge">0</span></button>
+    </nav>
+  </header>
+
+  <main id="app">
+    <!-- Contenido renderizado por app.js -->
+  </main>
+
+  <footer class="footer">
+    <small>MiTienda — Demo SPA · Imágenes: prompts IA (ver <a href="prompts.txt">prompts.txt</a>)</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

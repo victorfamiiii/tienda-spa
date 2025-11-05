@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    image: tienda-spa-web:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+  cloudflared:
+    image: cloudflare/cloudflared:2023.8.0
+    restart: unless-stopped
+    depends_on: 
+      - web
+    environment:
+      # Define CLOUDFLARED_TUNNEL_TOKEN en tu entorno antes de levantar los servicios
+      - CLOUDFLARED_TUNNEL_TOKEN
+    # Si tienes un token, cloudflared creará/ejecutará el túnel con el token.
+    command: sh -c 'if [ -n "${CLOUDFLARED_TUNNEL_TOKEN}" ]; then cloudflared tunnel run --token ${CLOUDFLARED_TUNNEL_TOKEN}; else echo "No token provided - cloudflared will proxy to web but tunnel not active"; sleep infinity; fi'

@@ -1,0 +1,10 @@
+{
+  "products": [
+    {"id": "p01", "name": "Auriculares inalámbricos", "price": 59.99, "description": "Auriculares Bluetooth con cancelación de ruido y 24h de batería.", "image": "images/product01.svg", "prompt": "Auriculares inalámbricos modernos sobre fondo minimalista, iluminación suave, estilo fotográfico realista"},
+    {"id": "p02", "name": "Cafetera compacta", "price": 89.50, "description": "Cafetera de cápsulas compacta, tres intensidades de extracción.", "image": "images/product02.svg", "prompt": "Cafetera compacta de diseño moderno en cocina minimalista, luz natural, estilo fotográfico"},
+    {"id": "p03", "name": "Mochila urbana", "price": 45.00, "description": "Mochila resistente al agua con compartimento para portátil 15\".", "image": "images/product03.svg", "prompt": "Mochila urbana, elegante, sobre fondo neutro, mayor foco en textura y costuras"},
+    {"id": "p04", "name": "Reloj inteligente", "price": 129.99, "description": "Reloj con monitor de ritmo cardiaco, GPS y notificaciones.", "image": "images/product04.svg", "prompt": "Reloj inteligente con pantalla encendida mostrando datos de salud, estilo fotográfico con reflejos"},
+    {"id": "p05", "name": "Juego de té cerámico", "price": 35.20, "description": "Juego de té artesanal de cerámica, 4 piezas, acabado mate.", "image": "images/product05.svg", "prompt": "Juego de té cerámico artesanal sobre madera clara, enfoque macro, estilo editorial"},
+    {"id": "p06", "name": "Lámpara de mesa LED", "price": 22.75, "description": "Lámpara LED regulable con diseño minimalista y brazo ajustable.", "image": "images/product06.svg", "prompt": "Lámpara de mesa LED minimalista encendida, luz cálida, composición elegante"}
+  ]
+}
